@@ -1,0 +1,201 @@
+/*main body and container content*/
+body {
+  font-family: Arial;
+  font-size: 0.8em;
+  color: #000000; 
+  background-color: white; 
+  overflow-x: hidden;
+}
+
+.container {
+  padding-top: 50px;
+  background-color: white; 
+}
+
+
+
+
+
+
+/*Navbar*/
+.navbar {
+  background-color: #000000;
+  color: #ffffff;
+}
+.navbar-text {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 8px;
+    font-weight: bold;
+}
+
+
+
+/*Main profile content*/
+#profile-section {
+  margin-bottom: 0em;
+}
+#profile{
+  text-align: center;
+  display: block;
+  border-radius: 50px;
+  height: 300px;
+}
+
+#profile:hover {
+  transform: scale(1.1);
+  transition:0.2s;
+}
+
+.Git-button:hover {
+  transform: scale(1.1);
+  transition:0.2s;
+}
+
+.profile-greeting {
+  padding-top: 1em;
+  font-size: 2em;
+  font-style:italic;
+  color: #ffffff; 
+  font-family:monospace;
+  font-weight: bold; 
+}
+
+#Profile-name {
+  font-size: 4em;
+  color: #ffffff; 
+  font-weight: bold; 
+}
+
+.profile-field {
+  font-size: 2em;
+  font-style:italic;
+  color: #ffffff; 
+  font-family:monospace;
+}
+
+
+
+
+
+/*Parralax background image for profile*/
+#parralax-image{
+  background-image: url("images/Abstartct\ background\ 2.jpg");
+  height: 670px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* is used for sub headings */
+#sub-title {
+  font-size: 20px;
+  color: green;
+}
+
+
+/*Used to help display grades*/
+.content-section {
+  margin: 1%; 
+  display: none;
+  overflow: auto;
+  text-align: center;
+}
+.active {
+  display: block;
+}
+.semester-column {
+  width: 50%;
+}
+.content-section li {
+  display: flex;
+}
+.content-section li span {
+  flex-basis: 70%;
+}
+/* Prevent grades from overflowing when tabs width is shrinked */
+.content-section {
+  overflow: hidden; 
+}
+
+  /* when the button is collapsed the color is assigned to blue */
+.grades-button.collapsed {
+  background-color: rgb(61, 50, 214);
+}
+
+
+/*style for the model contancts popup*/
+.modal-content {
+  margin-top: 10%;
+  align-content: center;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.col-2:hover img {
+  transform: scale(1.1);
+  transition:0.2s;
+}
+
+.modal-body {
+  background-color: rgb(164, 164, 164);
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+}
+
+.modal-bottom {
+  background-color: rgb(164, 164, 164);
+  border-bottom-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  padding-right: 4em;
+}
+
+/*background for contact info section*/
+.custom-modal {
+  background-color: rgb(118, 118, 118);
+}
+
+/*re-sizes grades column,navbar and profile for smaller screen*/
+@media screen and (max-width: 1190px) {
+  .semester-column {
+    width: 100%;
+  }
+  #profile-section {
+    margin-bottom: 0em;
+  }
+  .navbar-text {
+    font-size: 20px;
+}
+}
+
+/*changes nav bar font size to not obscure content*/
+@media screen and (max-width: 810px) {
+  .navbar-text {
+    font-size: 13px;
+}
+#profile-section {
+  padding-top: 0em;
+}
+.button-container .col-12 {
+  flex: 1 0 calc(100% - 10px);
+}
+
+}
+
+
+
+/*Second Page CSS*/
+
+#bootstrapList {
+  background-color: rgb(0, 0, 1);
+
+}
+
+.DivFeatures {
+  font-size: 1.5em;
+}
+
+
